@@ -1,449 +1,646 @@
 <!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
-  <head>
+<html lang="en">
 
-    <!-- Meta -->
+<head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="librairy">
-    <meta name="keywords" content="">
-    <meta name="author" content="carlos badenes">
-    <meta name="googlebot" content="index,follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Title -->
-    <title>Librairy</title>
+    <title>librairy</title>
 
-    <!-- Templates core CSS -->
-    <link href="stylesheets/application.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Favicons -->
-    <link href="images/favicon/favicon.ico" rel="shortcut icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Modernizr Scripts -->
-    <script src="javascript/vendor/modernizr-2.7.1.min.js"></script>
-  </head>
-  <body class="index" id="to-top">
-
-    <!-- Side nav -->
-    <nav class="side-nav" role="navigation">
-
-      <ul class="nav-side-nav">
-        <li><a class="tooltip-side-nav" href="#section-1" title="" data-original-title="Services" data-placement="left"></a></li>
-        <li><a class="tooltip-side-nav" href="#section-2" title="" data-original-title="Features" data-placement="left"></a></li>
-        <li><a class="tooltip-side-nav" href="#section-3" title="" data-original-title="Subscribe" data-placement="left"></a></li>
-        <li><a class="tooltip-side-nav" href="#to-top" title="" data-original-title="Back" data-placement="left"></a></li>
-      </ul>
-
-    </nav> <!-- /.side-nav -->
-
-
-
-
-    <!-- Jumbotron -->
-    <header class="jumbotron" role="banner">
-
-      <div class="container">
-
-        <div class="row">
-
-          <!-- Logo -->
-          <figure class="text-center">
-            <a href="./index.html">
-              <img class="img-logo" src="images/logo.png" alt="">
-            </a>
-          </figure> <!-- /.text-center -->
-
-          <!-- Title -->
-          <h1>librairy</h1>
-
-          <!-- Sub title -->
-          <p>artificial intelligence for large text collections</p>
-
-          <!-- Button -->
-          <!--<p class="btn-app-store">
-            <a class="btn btn-danger btn-lg" href="#fakelinks">
-              <img src="images/btn-app-store.png" alt="">
-            </a>
-          </p>--> <!-- /.btn-app-store -->
-
-        </div> <!-- /.col-md-7 -->
-
-
-
-      </div> <!-- /.container -->
-
-    </header> <!-- /.jumbotron -->
-
-
-
-
-    <!-- Services -->
-    <section class="services-section" id="section-1">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-4 col-services">
-
-            <!-- Icons -->
-            <figure>
-              <img class="img-services" src="images/icons/file.png" alt="">
-            </figure>
-
-            <!-- Title -->
-            <h4>Manage</h4>
-
-            <!-- Description -->
-            <p>Common file formats such as pdf, doc, xml or even txt are supported.</p>
-
-          </div> <!-- /.col-md-4 -->
-
-          <div class="col-md-4 col-services">
-
-            <!-- Icons -->
-            <figure>
-              <img class="img-services" src="images/icons/search.png" alt="">
-            </figure>
-
-            <!-- Title -->
-            <h4>Search</h4>
-
-            <!-- Description -->
-            <p>Find documents, or paragraphs, by terms or phrases.</p>
-
-          </div> <!-- /.col-md-4 -->
-
-          <div class="col-md-4 col-services">
-
-            <!-- Icons -->
-            <figure>
-              <img class="img-services img-margin" src="images/icons/explore.png" alt="">
-            </figure>
-
-            <!-- Title -->
-            <h4>Explore</h4>
-
-            <!-- Description -->
-            <p>Discover hidden relations or relevant terms in a domain.</p>
-
-          </div> <!-- /.col-md-4 -->
-
-        </div> <!-- /.row -->
-
-      </div> <!-- /.container -->
-
-    </section> <!-- /.services-section -->
-
-
-
-
-    <!-- Features -->
-    <section class="features-section" id="section-2">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-5 col-features text-center">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-iPhone" src="images/iphone/1.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-          <div class="col-md-7 col-features features-content">
-
-            <!-- Title -->
-            <h3 id="title-1">Explorer</h3>
-
-            <!-- Description -->
-            <p>Manage documents by using the Rest-API and store them according to our data model</p>
-
-            <p>
-              <a class="btn btn-danger" href="https://github.com/librairy/explorer">Learn more</a>
-            </p>
-
-          </div> <!-- /.col-md-7 -->
-
-        </div> <!-- /.row -->
-
-
-
-
-        <div class="row media-screen-800">
-
-          <div class="col-md-7 col-features features-content">
-
-            <!-- Title -->
-            <h3 id="title-2">Second title features</h3>
-
-            <!-- Description -->
-            <p>Omnis, esse quo natus soluta minima facilis ratione dignissimos necessitatibus quod dolorem labore molestiae maxime veritatis laudantium aut odio ullam laboriosam autem!</p>
-
-            <p>
-              <a class="btn btn-danger" href="./sign-in.html">Sign In</a> &nbsp;
-              <a class="btn btn-danger-border" href="./sign-up.html">Sign Up</a>
-            </p>
-
-          </div> <!-- /.col-md-7 -->
-
-          <div class="col-md-5 col-features text-center">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-iPhone margin-top margin-screen-800" src="images/iphone/4.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-        </div> <!-- /.row -->
-
-
-
-
-        <div class="row">
-
-          <div class="col-md-5 col-features text-center">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-iPhone margin-top margin-top-1" src="images/iphone/3.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-          <div class="col-md-7 col-features features-content">
-
-            <!-- Title -->
-            <h3 id="title-3">Third title features</h3>
-
-            <!-- Description -->
-            <p>Omnis, esse quo natus soluta minima facilis ratione dignissimos necessitatibus quod dolorem labore molestiae maxime veritatis laudantium aut odio ullam laboriosam autem!</p>
-
-            <!-- Button -->
-            <p class="btn-app-store">
-              <a class="btn btn-danger btn-lg" href="#fakelinks">
-                <img src="images/btn-app-store.png" alt="">
-              </a>
-            </p> <!-- /.btn-app-store -->
-
-          </div> <!-- /.col-md-7 -->
-
-        </div> <!-- /.row -->
-
-
-        <div class="row media-screen-800">
-
-          <div class="col-md-7 col-features features-content">
-
-            <!-- Title -->
-            <h3 id="title-2">Second title features</h3>
-
-            <!-- Description -->
-            <p>Omnis, esse quo natus soluta minima facilis ratione dignissimos necessitatibus quod dolorem labore molestiae maxime veritatis laudantium aut odio ullam laboriosam autem!</p>
-
-            <p>
-              <a class="btn btn-danger" href="./sign-in.html">Sign In</a> &nbsp;
-              <a class="btn btn-danger-border" href="./sign-up.html">Sign Up</a>
-            </p>
-
-          </div> <!-- /.col-md-7 -->
-
-          <div class="col-md-5 col-features text-center">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-iPhone margin-top margin-screen-800" src="images/iphone/4.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-        </div> <!-- /.row -->
-
-
-
-        <div class="row">
-
-          <div class="col-md-5 col-features text-center">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-iPhone margin-top margin-top-1" src="images/iphone/3.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-          <div class="col-md-7 col-features features-content">
-
-            <!-- Title -->
-            <h3 id="title-3">Third title features</h3>
-
-            <!-- Description -->
-            <p>Omnis, esse quo natus soluta minima facilis ratione dignissimos necessitatibus quod dolorem labore molestiae maxime veritatis laudantium aut odio ullam laboriosam autem!</p>
-
-            <!-- Button -->
-            <p class="btn-app-store">
-              <a class="btn btn-danger btn-lg" href="#fakelinks">
-                <img src="images/btn-app-store.png" alt="">
-              </a>
-            </p> <!-- /.btn-app-store -->
-
-          </div> <!-- /.col-md-7 -->
-
-        </div> <!-- /.row -->
-
-
-
-      </div> <!-- /.container -->
-
-    </section> <!-- /.features-section -->
-
-
-
-
-    <!-- Subscribe -->
-    <section class="subscribe-section" id="section-3">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-12">
-
-            <!-- Title -->
-            <h2>Subscribe to get updates</h2>
-
-            <!-- Subscribe form -->
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">librairy</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">librairy</div>
+                <div class="intro-lead-in">artificial intelligence for large collection of documents</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="features">
+        <div class="container">
             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Features</h2>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-files-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Manage</h4>
+                    <p class="text-muted">Organize your documents automatically. Common file format are supported (pdf,doc,xml,txt).</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Search</h4>
+                    <p class="text-muted">Find documents or paragraphs by terms or phrases.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Explore</h4>
+                    <p class="text-muted">Discover hidden relations or relevant terms in a domain.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-puzzle-piece fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Customize</h4>
+                    <p class="text-muted">Build your own deployment according your need.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Extend</h4>
+                    <p class="text-muted">Write plugins adding particular functionalities.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-coffee fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Recommend</h4>
+                    <p class="text-muted">Receive suggestions based on your collections.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-              <div class="col-md-6 col-md-offset-3 col-subscribe">
+    <!-- Portfolio Grid Section -->
+    <section id="services" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Compose your librairy by aggregating services.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/librairy/explorer" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/services/explorer.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Explorer</h4>
+                        <p class="text-muted">Organize your documents</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/librairy/boot" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/services/boot.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Boot</h4>
+                        <p class="text-muted">Write your own component</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/librairy/modeler-lda" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/services/topics.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Topics</h4>
+                        <p class="text-muted">Build Topic Models from LDA</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/librairy/modeler-w2v" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/services/words.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Words</h4>
+                        <p class="text-muted">Build Word Embeddings from Word2Vec</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/librairy/learner-onto" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/services/terms.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Terms</h4>
+                        <p class="text-muted">Create an ontology for a domain</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/librairy/comparator-jsd" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/services/sim-topics.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Similarity</h4>
+                        <p class="text-muted">Calculate topic-based similarities</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/librairy/comparator-cos" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/services/sim-words.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Synonyms</h4>
+                        <p class="text-muted">Find synonyms based on word embeddings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <form class="subscribe-form form-inline" action="./index.html" role="form">
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">This work is supported by the European Commission&#39;s Seventh Framework Programme.<br/>Activity ICT (FP7-ICT-2013.8.1), Grant agreement no: 611383.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2015</h4>
+                                    <h4 class="subheading">Initial idea</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Build a system that takes advantage of NLP tasks and machine-learning techniques to provide useful information from a collection of documents.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>January 2016</h4>
+                                    <h4 class="subheading">Transition to services</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Then librairy starts to take shape. An event-oriented system based on microservices is being cooked maintaining an overall balance between scalability principles, efficiency and simplicity.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                  <!-- Input -->
-                  <div class="form-group">
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Team</h2>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/ocorcho.png" class="img-responsive img-circle" alt="">
+                        <h4>Oscar Corcho</h4>
+                        <p class="text-muted">Full-Professor <br> Ontology Engineering Group <br> (UPM)</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/ocorcho"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://github.com/ocorcho"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/ocorcho"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/cbadenes.png" class="img-responsive img-circle" alt="">
+                        <h4>Carlos Badenes</h4>
+                        <p class="text-muted">Research-Assistant <br> Ontology Engineering Group <br> (UPM)</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/cbolmedo"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://github.com/ocorcho"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/cbadenes"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Ontology Engineering Group (OEG).</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
 
-                    <label class="sr-only" for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email address">
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <a href="http://www.oeg-upm.net/">
+                        <img src="img/logos/oeg.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <a href="http://drinventor.eu/">
+                        <img src="img/logos/dri.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
 
-                  </div> <!-- /.form-group -->
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Give us your feedback.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                  <!-- Button -->
-                  <button class="btn btn-success" type="submit">Subscribe</button>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; librairy 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/librairy_fw"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://github.com/librairy"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-                </form> <!-- /.subscribe-form -->
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Date: July 2014</li>
+                                <li>Client: Round Icons</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Heading</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <section class="subscribe-description">
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                  <p>Don't worry. We do not spam :)</p>
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                </section> <!-- /.subscribe-description -->
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-              </div> <!-- /.col-md-6 -->
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>librairy</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            </div> <!-- /.row -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-          </div> <!-- /.col-md-12 -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-        </div> <!-- /.row -->
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
 
-      </div> <!-- /.container -->
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-    </section> <!-- /.subscribe-section -->
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
+</body>
 
-
-
-    <!-- Footer -->
-    <footer class="footer-section" role="contentinfo">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-4 col-footer">
-
-            <!-- Footer 1 -->
-            <section>
-              <p>This work is supported by the European Commission&#39;s Seventh Framework Programme.<br/>Activity ICT (FP7-ICT-2013.8.1), Grant agreement no: 611383.</p>
-            </section>
-
-            <!-- AddThis Button -->
-            <ul class="addthis_toolbox addthis_default_style">
-
-              <li><a class="addthis_button_facebook_like"></a></li>
-              <li><a class="addthis_button_tweet"></a></li>
-
-            </ul> <!-- /.addthis_toolbox -->
-            <script>var addthis_config = {"data_track_addressbar":true};</script>
-            <script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-533f6ac03b59c72a"></script>
-
-          </div> <!-- /.col-md-4 -->
-
-          <div class="col-md-4 col-footer col-padding">
-
-            <!-- Footer 1 -->
-            <section class="text-center">
-              <p>Be sure to read <a href="#fakelinks">Terms</a> and <a href="#fakelinks">Privacy Policy</a>.</p>
-            </section>
-
-            <!-- Social media links -->
-            <ul class="social-media-links">
-
-              <li><a class="fa fa-twitter tw" href="https://twitter.com/oeg_upm"></a></li>
-              <li><a class="fa fa-github fb" href="https://github.com/librairy"></a></li>
-              <li><a class="fa fa-user pn" href="http://www.oeg-upm.net/"></a></li>
-
-            </ul> <!-- /.social-media-links -->
-
-          </div> <!-- /.col-md-4 -->
-
-          <div class="col-md-4 col-footer">
-
-            <!-- Footer 1 -->
-            <section>
-              <p><strong>Ontology Engineering Group (OEG)</strong> <br>Universidad Politecnica de Madrid (UPM) <br>Boadilla del Monte, Madrid.</p>
-            </section>
-
-          </div> <!-- /.col-md-4 -->
-
-        </div> <!-- /.row -->
-
-      </div> <!-- /.container -->
-
-    </footer> <!-- /.footer-section -->
-
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="javascript/vendor/jquery-2.1.0.min.js"></script>
-    <script src="javascript/bootstrap.min.js"></script>
-    <script src="javascript/assets/application.js"></script>
-  </body>
 </html>

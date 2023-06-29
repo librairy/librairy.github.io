@@ -57,7 +57,7 @@
     <div class="container-fluid" data-aos="fade-up">
       <div class="row justify-content-center">
         <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Take advantage of Artificial Intelligence in your documents</h1>
+          <h1>Artificial Intelligence to efficiently manage vast document repositories</h1>
           <h2>Immediate answers to complex questions</h2>
           <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
           <!-- https://www.freepik.com/author/vectorjuice -->
@@ -87,8 +87,8 @@
             </p>-->
             <ul>
               <li><i class="bi bi-check-circle"></i> Full control.</li>
-              <li><i class="bi bi-check-circle"></i> Continuous learning.</li>
               <li><i class="bi bi-check-circle"></i> Maximum transparency.</li>
+              <li><i class="bi bi-check-circle"></i> Comprehensive Features.</li>
             </ul>
             <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
           </div>
@@ -96,6 +96,234 @@
 
       </div>
     </section><!-- End About Section -->
+
+    <!-- ======= Installation Section ======= -->
+    <section id="installation" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-3 order-lg-5" data-aos="zoom-in" data-aos-delay="150">
+            <pre id="myPreTag">pip install librairy</pre>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Easy Integration</h3>
+            <p class="fst-italic">
+              A straightforward integration process that provides a well-documented and easy-to-use tool. Users can quickly incorporate the librAIry functionalities into their own applications or systems without significant overhead.
+            </p>
+            
+            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <section id="installation2" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-3 order-lg-5 content" data-aos="zoom-in" data-aos-delay="150">
+            <h3>Document Management</h3>
+            <p class="fst-italic">
+              Methods for document ingestion, enabling users to import documents in various formats such as PDF, plain text, Word documents, and more. It also offers functionalities for organizing and categorizing the documents within the librAIry system
+            </p>            
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <pre id="myPreTag2">
+from librairy import bookshelf
+
+
+# Request an API key at http://librairy.eu
+my_bookshelf = bookshelf.connect(credentials="##API_KEY##")
+
+books = [
+    {
+    "document_id": "1",
+    "text": "Lions are large carnivorous felines found in grasslands and savannas.",
+    "description": "Source: National Geographic"
+    }, {
+    "document_id": "2",
+    "text": "Dolphins are highly intelligent marine mammals known for their playful behavior and strong social bonds.",
+    "description": "Source: World Wildlife Fund"
+    },{
+    "document_id": "3",
+    "text": "Elephants are the largest land animals, characterized by their long trunks and distinctive ivory tusks.",
+    "description": "Source: Smithsonian's National Zoo"
+    },{
+    "document_id": "4",
+    "text": "Penguins are flightless birds that thrive in cold Antarctic regions, often forming large colonies for breeding.",
+    "description": "Source: BBC Earth"
+    }
+]
+for book in books:
+    my_bookshelf.add(book)
+            </pre>
+            
+            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Installation Section ======= -->
+  
+    
+    <section id="installation3" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-3 order-lg-5" data-aos="zoom-in" data-aos-delay="150">
+            <pre id="myPreTag">
+my_bookshelf.ask("What abilities have the dolphins shown?")
+
+# OUTPUT:
+# [
+#   {
+# 	'value': 'highly intelligent',
+# 	'evidence': {
+# 		    'text': 'Dolphins are highly intelligent marine mammals known for their 
+#                      playful behavior and strong social bonds.',
+# 		    'document_id': 'c81e728d-9d4c-2f63-6f06-7f89cc14862c',
+# 		    'description': 'Source: World Wildlife Fund',
+# 		    'start': 13,
+# 		    'end': 31,
+# 		    'score': 0.54
+# 	    }
+#   }
+# ]</pre>
+          </div>
+          <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Make Questions</h3>
+            <p class="fst-italic">
+              librAIry encompasses a powerful question answering functionality that allows users to extract precise answers from a vast collection of documents. With this cutting-edge feature, librAIry empowers users to ask specific questions and receive accurate responses, enabling efficient information retrieval and knowledge discovery.
+            </p>
+            
+            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <section id="installation4" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-3 order-lg-5 content" data-aos="zoom-in" data-aos-delay="150">
+            <h3>Semantic Exploration</h3>
+            <p class="fst-italic">
+              Unlike traditional keyword-based searching, librAIry takes searching to a whole new level with its advanced semantic searching functionality. By harnessing the power of artificial intelligence and natural language processing, librAIry goes beyond simple keyword matching to understand the context, meaning, and relationships within your multilingual document collection. </br> 
+              Users can perform more sophisticated searches that capture the true intent behind the query, allowing to uncover relevant information that may not be explicitly captured by keywords alone. With librAIry's semantic searching, you can explore concepts, analyze document similarities, identify related topics, and gain a deeper understanding of your document collection like never before. Experience the next generation of searching with librAIry and unlock a world of valuable insights hidden within your multilingual documents.
+            </p>            
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <pre id="myPreTag2">
+resp = my_bookshelf.query("ocean")
+print(resp)
+
+# OUTPUT:
+#  [
+#   {
+#  	  'text': 'Dolphins are highly intelligent marine mammals known for their playful behavior and strong social bonds.',
+#  	  'document_id': 'c81e728d-9d4c-2f63-6f06-7f89cc14862c',
+#  	  'description': 'Source: World Wildlife Fund',
+#  	  'score': 0.61551234126091
+#   }, {
+#  	  'text': 'Penguins are flightless birds that thrive in cold Antarctic regions, often forming large colonies for breeding.',
+#  	  'document_id': 'a87ff679-a2f3-e71d-9181-a67b7542122c',
+#  	  'description': 'Source: BBC Earth',
+#  	  'score': 0.6150351762771606
+#   }
+#  ]
+            </pre>
+            
+            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="installation5" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-3 order-lg-5" data-aos="zoom-in" data-aos-delay="150">
+            <pre id="myPreTag">
+
+
+from librairy.collector import semscholar
+
+papers = semscholar.Semantic_Scholar()
+papers.add_author(name="Carlos Badenes-Olmedo", id="1413809069")
+
+# interval: collect documents every `interval` minutes
+# initial_delay: wait `initial_delay` minutes the first time
+
+my_bookshelf.collect(papers, interval=5, initial_delay=0)     
+
+
+</pre>
+          </div>
+          <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Collect Documents</h3>
+            <p class="fst-italic">
+              Streamlines the process of collecting documents from external sources, starting with scientific articles in the current version and expanding to encompass other sources in the future.</br>
+              With this cutting-edge functionality, librAIry eliminates the manual effort of sourcing and curating documents by automatically gathering relevant scientific articles from trusted repositories and publishers. This automated document collection ensures an up-to-date and diverse corpus, allowing researchers, academics, and knowledge seekers to access a comprehensive collection of scientific literature effortlessly. Stay at the forefront of research and expand your knowledge with librAIry's automatic document collection, empowering you to explore a wide range of sources without the hassle of manual aggregation.
+            </p>
+            
+            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <section id="installation6" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-3 order-lg-5 content" data-aos="zoom-in" data-aos-delay="150">
+            <h3>Leverage your texts</h3>
+            <p class="fst-italic">
+              The ability of librAIry to automatically collect scientific articles from external sources, combined with its question answering functionality, revolutionizes research and knowledge discovery by providing researchers with a curated corpus of scientific literature and the means to extract precise insights. </br> 
+              This powerful combination accelerates research, enables informed decision-making, bridges knowledge gaps, and fosters collaboration, empowering scientists to make breakthrough discoveries and advance scientific understanding.
+            </p>            
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <pre id="myPreTag2">
+
+
+resp = my_bookshelf.query("What is librAIry?")
+print(resp)
+
+# OUTPUT:
+# [
+#   {
+#       'value': 'a novel architecture to store, process and analyze large collections of textual resources', 
+#       'evidence': 
+#           {
+#               'text': 'We present librAIry, a novel architecture to store, process and analyze large collections of textual resources, integrating existing algorithms and tools into a common, distributed, high-performance workflow', 
+#               'document_id': '498f9faf-c782-5728-5ba0-da972810df33', 
+#               'description': "**'Distributing Text Mining tasks with librAIry'**, Carlos Badenes-Olmedo,José Luis Redondo García,Óscar Corcho, *ACM Symposium on Document Engineering*, 2017", 
+#               'start': 21, 
+#               'end': 110, 
+#               'score': 0.7
+#           }
+#   }
+# ]
+
+
+            </pre>
+            
+            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
@@ -212,8 +440,11 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
 
+   <!-- Custom JS Files -->
+   <script src="assets/js/script.js"></script>
+
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <!--<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>-->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

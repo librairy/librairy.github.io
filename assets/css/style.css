@@ -155,6 +155,37 @@ h6 {
   max-height: 40px;
 }
 
+/*----------
+# Copy
+-------*/
+
+pre {
+  position: relative;
+  background: #d3d6db;
+  padding: 10px;
+  font-size: 11px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  border: 1px solid #e6e7e9;
+  max-width: 500px;
+}
+
+.copy-button {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: gray;
+  border-radius: 0.5em;
+  padding: 2px 7px;
+}
+
+.copy-button:hover {
+  color: #000;
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -438,7 +469,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.png") center center no-repeat;
   background-size: cover;
 }
 
@@ -1523,7 +1554,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.png") center center no-repeat;
   background-size: cover;
 }
 

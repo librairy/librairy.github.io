@@ -1,550 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LibrAIry | AI-powered knowledge systems</title>
+  <meta name="description" content="LibrAIry builds intelligent systems to explore, connect and query expert knowledge.">
+  <meta name="keywords" content="knowledge graphs, semantic search, natural language processing, conversational AI, LibrAIry">
 
-  <title>librAIry</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
 </head>
-
 <body>
+  <header id="header" class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand" aria-label="LibrAIry home">
+        <img src="assets/img/logo.png" alt="LibrAIry logo">
+      </a>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
-      <!--<h1 class="logo"><a href="index.html">librAIry</a></h1>-->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav" data-i18n="menu_toggle">Menu</button>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <!--<li><a class="nav-link scrollto" href="jobs.html">Jobs</a></li>-->                    
-          <li><a class="getstarted scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+        <a href="#what-we-do" class="nav-link active" data-i18n="nav_what">What we do</a>
+        <a href="#who-we-are" class="nav-link" data-i18n="nav_who">Who we are</a>
+        <a href="#clients" class="nav-link" data-i18n="nav_clients">Clients and cases</a>
+        <a href="mailto:carlos.badenes@librairy.es" class="nav-link nav-cta" data-i18n="nav_contact">Contact</a>
 
+        <div class="lang-switch" role="group" aria-label="Language selector">
+          <button class="lang-btn is-active" type="button" data-lang="en" aria-label="English" title="English">🇬🇧</button>
+          <button class="lang-btn" type="button" data-lang="es" aria-label="Espanol" title="Espanol">🇪🇸</button>
+        </div>
+      </nav>
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero_eyebrow">LibrAIry - AI spin-off from UPM</p>
+          <h1 data-i18n="hero_title">AI-powered knowledge systems</h1>
+          <p class="lead" data-i18n="hero_subtitle">LibrAIry builds intelligent systems to explore, connect and query expert knowledge.</p>
+          <p class="copy" data-i18n="hero_copy">We combine knowledge graphs, natural language processing, semantic search and advanced artificial intelligence to transform complex documents, terminologies and data into reliable digital services.</p>
+          <a class="btn" href="mailto:carlos.badenes@librairy.es" data-i18n="hero_cta">Get in touch</a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <img class="float-card card-a" src="assets/img/hero-img.png" alt="">
+          <img class="float-card card-b" src="assets/img/hero-img2.png" alt="">
+          <img class="float-card card-c" src="assets/img/about.png" alt="">
+          <img class="float-card card-d" src="assets/img/features.svg" alt="">
+        </div>
+      </div>
+    </section>
 
-    <div class="container-fluid" data-aos="fade-up">
-      <div class="row justify-content-center">
-        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Artificial Intelligence to efficiently manage vast document repositories</h1>
-          <h2>Immediate answers to complex questions</h2>
-          <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
-          <!-- https://www.freepik.com/author/vectorjuice -->
+    <section id="what-we-do" class="section">
+      <div class="container section-grid">
+        <div class="section-content">
+          <h2 data-i18n="what_title">What we do</h2>
+          <p data-i18n="what_intro">LibrAIry develops AI-powered solutions for organisations that need to structure, connect and exploit specialised knowledge.</p>
+          <div class="what-flow">
+            <p data-i18n="what_1">Knowledge graphs to model concepts, entities and relationships over complex information.</p>
+            <p data-i18n="what_2">Natural language processing to analyse, structure and enrich specialised textual content.</p>
+            <p data-i18n="what_3">Semantic search to retrieve information by meaning, context and conceptual similarity.</p>
+            <p data-i18n="what_4">Conversational AI to enable reliable natural language access to trusted sources.</p>
+          </div>
         </div>
-        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        <figure class="section-image" aria-hidden="true">
+          <img src="assets/img/about3.jpg" alt="">
+        </figure>
+      </div>
+    </section>
+
+    <section id="who-we-are" class="section section-alt">
+      <div class="container section-grid reverse">
+        <div class="section-content">
+          <h2 data-i18n="who_title">Who we are</h2>
+          <p data-i18n="who_p1">LibrAIry is a spin-off of Universidad Politecnica de Madrid created to transfer advanced research in artificial intelligence, natural language processing and knowledge graphs into real-world digital solutions.</p>
+          <p data-i18n="who_p2">Our work has been supported by the CDTI NEOTEC programme, which promotes technology-based companies with a strong R&amp;D component.</p>
         </div>
+        <figure class="section-image" aria-hidden="true">
+          <img src="assets/img/features.svg" alt="">
+        </figure>
+      </div>
+    </section>
+
+    <section id="clients" class="section">
+      <div class="container section-grid">
+        <div class="section-content">
+          <h2 data-i18n="clients_title">Clients and success cases</h2>
+          <p data-i18n="clients_intro">Our technology has been deployed in institutional environments involving leading organisations in research, terminology, language technologies and digital knowledge services.</p>
+          <div class="clients-marquee" role="presentation">
+            <div class="marquee-track">
+              <span class="client-item"><img src="assets/img/clients/csic.png" alt="CSIC"></span>
+              <span class="client-item"><img src="assets/img/clients/instituto-cervantes.png" alt="Instituto Cervantes"></span>
+              <span class="client-item"><img src="assets/img/clients/aeter.png" alt="AETER"></span>
+              <span class="client-item"><img src="assets/img/clients/bsc.png" alt="Barcelona Supercomputing Center"></span>
+              <span class="client-item"><img src="assets/img/clients/csic.png" alt="CSIC"></span>
+              <span class="client-item"><img src="assets/img/clients/instituto-cervantes.png" alt="Instituto Cervantes"></span>
+              <span class="client-item"><img src="assets/img/clients/aeter.png" alt="AETER"></span>
+              <span class="client-item"><img src="assets/img/clients/bsc.png" alt="Barcelona Supercomputing Center"></span>
+            </div>
+          </div>
+          <p class="note"><span data-i18n="clients_note_prefix">Technology deployed in </span> <a href="https://portal.proyectoteresia.org/" target="_blank" rel="noopener" data-i18n="clients_note_link">TeresIA</a>.</p>
+        </div>
+        <figure class="section-image section-image-logo" aria-hidden="true">
+          <img src="assets/img/clients/ue.png" alt="">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="site-footer">
+    <div class="container footer-main">
+      <div>
+        <h3>LibrAIry</h3>
+        <p data-i18n="footer_company">Spin-off of Universidad Politecnica de Madrid specialised in AI-powered knowledge systems.</p>
+        <p>Boadilla del Monte, 28660, Madrid (Spain)</p>
+        <div class="funding-logos">
+          <a target="_blank" rel="noopener" href="https://aplicaciones.ciencia.gob.es/pyiINFO/buscarPyi.mec?&nif=B06832091" title="Sello PYME Innovadora">
+            <img alt="Sello PYME Innovadora" src="assets/img/certificates/pyme_innovadora_meic-SP_print.png">
+            <span>PYME INNOVADORA</span>
+          </a>          
+        </div>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer_fin_title">Financing and institutional support</h4>
+        <p data-i18n="footer_fin_1">LibrAIry ha recibido apoyo del programa NEOTEC de CDTI para el desarrollo de tecnologia basada en I+D.</p>
+        <p data-i18n="footer_fin_2">Referencia del proyecto NEOTEC: SNEO-20222324.</p>
+        <p data-i18n="footer_fin_3">Actuacion financiada en el marco de ayudas a empresas de base tecnologica con alto componente de innovacion y transferencia de conocimiento.</p>
+        <div class="funding-logos">          
+          <div class="funding-logo-static">
+            <img alt="Sello CDTI NEOTEC" src="assets/img/certificates/cdti.png">
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h4>Legal</h4>
+        <div class="legal-links">
+          <a href="legal.html">Aviso legal</a>
+          <a href="http://twitter.com/librairy_eu" target="_blank" rel="noopener">Twitter</a>
+          <a href="http://www.linkedin.com/company/79706449/admin/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <p class="copyright">&copy; Copyright <strong>librAIry</strong>. All Rights Reserved</p>
+        <p class="credits">Designed by <a href="https://bootstrapmade.com/" target="_blank" rel="noopener">BootstrapMade</a>. Image by <a href="https://www.freepik.com/free-vector/search-engine-marketing-business-copywriting-service-content-management_12085329.htm#&position=16&from_view=author" target="_blank" rel="noopener">vectorjuice</a> on Freepik.</p>
       </div>
     </div>
+  </footer>
 
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-            <img src="assets/img/about.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>AI services to improve document search and extract knowledge</h3>
-            <!--<p class="fst-italic">
-              The latest advances in semantic technology that facilitates text processing to easily extract knowledge.
-            </p>-->
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Full control.</li>
-              <li><i class="bi bi-check-circle"></i> Maximum transparency.</li>
-              <li><i class="bi bi-check-circle"></i> Comprehensive Features.</li>
-            </ul>
-            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Installation Section ======= -->
-    <section id="installation" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 order-3 order-lg-5" data-aos="zoom-in" data-aos-delay="150">
-            <pre id="myPreTag">pip install librairy</pre>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Easy Integration</h3>
-            <p class="fst-italic">
-              A straightforward integration process that provides a well-documented and easy-to-use tool. Users can quickly incorporate the librAIry functionalities into their own applications or systems without significant overhead.
-            </p>
-            
-            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <section id="installation2" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 order-3 order-lg-5 content" data-aos="zoom-in" data-aos-delay="150">
-            <h3>Document Management</h3>
-            <p class="fst-italic">
-              Methods for document ingestion, enabling users to import documents in various formats such as PDF, plain text, Word documents, and more. It also offers functionalities for organizing and categorizing the documents within the librAIry system
-            </p>            
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <pre id="myPreTag2">
-from librairy import bookshelf
-
-
-# Request an API key at http://librairy.eu
-my_bookshelf = bookshelf.connect(credentials="##API_KEY##")
-
-books = [
-    {
-    "document_id": "1",
-    "text": "Lions are large carnivorous felines found in grasslands and savannas.",
-    "description": "Source: National Geographic"
-    }, {
-    "document_id": "2",
-    "text": "Dolphins are highly intelligent marine mammals known for their playful behavior and strong social bonds.",
-    "description": "Source: World Wildlife Fund"
-    },{
-    "document_id": "3",
-    "text": "Elephants are the largest land animals, characterized by their long trunks and distinctive ivory tusks.",
-    "description": "Source: Smithsonian's National Zoo"
-    },{
-    "document_id": "4",
-    "text": "Penguins are flightless birds that thrive in cold Antarctic regions, often forming large colonies for breeding.",
-    "description": "Source: BBC Earth"
-    }
-]
-for book in books:
-    my_bookshelf.add(book)
-            </pre>
-            
-            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ======= Installation Section ======= -->
-  
-    
-    <section id="installation3" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 order-3 order-lg-5" data-aos="zoom-in" data-aos-delay="150">
-            <pre id="myPreTag">
-my_bookshelf.ask("What abilities have the dolphins shown?")
-
-# OUTPUT:
-# [
-#   {
-# 	'value': 'highly intelligent',
-# 	'evidence': {
-# 		    'text': 'Dolphins are highly intelligent marine mammals known for their 
-#                      playful behavior and strong social bonds.',
-# 		    'document_id': 'c81e728d-9d4c-2f63-6f06-7f89cc14862c',
-# 		    'description': 'Source: World Wildlife Fund',
-# 		    'start': 13,
-# 		    'end': 31,
-# 		    'score': 0.54
-# 	    }
-#   }
-# ]</pre>
-          </div>
-          <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Make Questions</h3>
-            <p class="fst-italic">
-              librAIry encompasses a powerful question answering functionality that allows users to extract precise answers from a vast collection of documents. With this cutting-edge feature, librAIry empowers users to ask specific questions and receive accurate responses, enabling efficient information retrieval and knowledge discovery.
-            </p>
-            
-            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <section id="installation4" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 order-3 order-lg-5 content" data-aos="zoom-in" data-aos-delay="150">
-            <h3>Semantic Exploration</h3>
-            <p class="fst-italic">
-              Unlike traditional keyword-based searching, librAIry takes searching to a whole new level with its advanced semantic searching functionality. By harnessing the power of artificial intelligence and natural language processing, librAIry goes beyond simple keyword matching to understand the context, meaning, and relationships within your multilingual document collection. </br> 
-              Users can perform more sophisticated searches that capture the true intent behind the query, allowing to uncover relevant information that may not be explicitly captured by keywords alone. With librAIry's semantic searching, you can explore concepts, analyze document similarities, identify related topics, and gain a deeper understanding of your document collection like never before. Experience the next generation of searching with librAIry and unlock a world of valuable insights hidden within your multilingual documents.
-            </p>            
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <pre id="myPreTag2">
-resp = my_bookshelf.query("ocean")
-print(resp)
-
-# OUTPUT:
-#  [
-#   {
-#  	  'text': 'Dolphins are highly intelligent marine mammals known for their playful behavior and strong social bonds.',
-#  	  'document_id': 'c81e728d-9d4c-2f63-6f06-7f89cc14862c',
-#  	  'description': 'Source: World Wildlife Fund',
-#  	  'score': 0.61551234126091
-#   }, {
-#  	  'text': 'Penguins are flightless birds that thrive in cold Antarctic regions, often forming large colonies for breeding.',
-#  	  'document_id': 'a87ff679-a2f3-e71d-9181-a67b7542122c',
-#  	  'description': 'Source: BBC Earth',
-#  	  'score': 0.6150351762771606
-#   }
-#  ]
-            </pre>
-            
-            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <section id="installation5" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 order-3 order-lg-5" data-aos="zoom-in" data-aos-delay="150">
-            <pre id="myPreTag">
-
-
-from librairy.collector import semscholar
-
-papers = semscholar.Semantic_Scholar()
-papers.add_author(name="Carlos Badenes-Olmedo", id="1413809069")
-
-# interval: collect documents every `interval` minutes
-# initial_delay: wait `initial_delay` minutes the first time
-
-my_bookshelf.collect(papers, interval=5, initial_delay=0)     
-
-
-</pre>
-          </div>
-          <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Collect Documents</h3>
-            <p class="fst-italic">
-              Streamlines the process of collecting documents from external sources, starting with scientific articles in the current version and expanding to encompass other sources in the future.</br>
-              With this cutting-edge functionality, librAIry eliminates the manual effort of sourcing and curating documents by automatically gathering relevant scientific articles from trusted repositories and publishers. This automated document collection ensures an up-to-date and diverse corpus, allowing researchers, academics, and knowledge seekers to access a comprehensive collection of scientific literature effortlessly. Stay at the forefront of research and expand your knowledge with librAIry's automatic document collection, empowering you to explore a wide range of sources without the hassle of manual aggregation.
-            </p>
-            
-            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <section id="installation6" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 order-3 order-lg-5 content" data-aos="zoom-in" data-aos-delay="150">
-            <h3>Leverage your texts</h3>
-            <p class="fst-italic">
-              The ability of librAIry to automatically collect scientific articles from external sources, combined with its question answering functionality, revolutionizes research and knowledge discovery by providing researchers with a curated corpus of scientific literature and the means to extract precise insights. </br> 
-              This powerful combination accelerates research, enables informed decision-making, bridges knowledge gaps, and fosters collaboration, empowering scientists to make breakthrough discoveries and advance scientific understanding.
-            </p>            
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <pre id="myPreTag2">
-
-
-resp = my_bookshelf.query("What is librAIry?")
-print(resp)
-
-# OUTPUT:
-# [
-#   {
-#       'value': 'a novel architecture to store, process and analyze large collections of textual resources', 
-#       'evidence': 
-#           {
-#               'text': 'We present librAIry, a novel architecture to store, process and analyze large collections of textual resources, integrating existing algorithms and tools into a common, distributed, high-performance workflow', 
-#               'document_id': '498f9faf-c782-5728-5ba0-da972810df33', 
-#               'description': "**'Distributing Text Mining tasks with librAIry'**, Carlos Badenes-Olmedo,José Luis Redondo García,Óscar Corcho, *ACM Symposium on Document Engineering*, 2017", 
-#               'start': 21, 
-#               'end': 110, 
-#               'score': 0.7
-#           }
-#   }
-# ]
-
-
-            </pre>
-            
-            <!--<a href="#contact" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>-->
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="py-5 team4 section-bg">
-      <div class="container">
-        <div class="row justify-content-center mb-4">
-          <div class="col-md-6 text-center">
-            <h3 class="mb-6">Our Team</h3>
-            <h6 class="subtitle">We combine researchers in semantic technologies with developers who are experts in large-scale processing.</h6>
-          </div>
-        </div>
-        <div class="row">
-          <!-- column  -->
-          <div class="col-lg-4 mb-4">
-            <!-- Row -->
-            <div class="row">
-              <div class="col-md-9">
-                <img src="assets/img/CarlosBadenes200x200.png" alt="wrapkit" class="img-fluid rounded-circle" />
-              </div>
-              <div class="col-md-9 text-center">
-                <div class="pt-2">
-                  <h5 class="mt-4 font-weight-medium mb-0">Carlos Badenes-Olmedo</h5>
-                  <h6 class="subtitle mb-3">Semantic Search</h6>
-                  <p>Knowledge extraction from unstructured data combining ML and NLP techniques.</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=7U87QYEAAAAJ&hl=es" class="text-decoration-none d-block px-1"><i class="bx bxl-google"></i></a></li>
-                    <li class="list-inline-item"><a href="https://twitter.com/carbadol" class="text-decoration-none d-block px-1"><i class="bx bxl-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/cbadenes" class="text-decoration-none d-block px-1"><i class="bx bxl-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Row -->
-          </div>
-          <!-- column  -->
-          <!-- column  -->
-          <div class="col-lg-4 mb-4">
-            <!-- Row -->
-            <div class="row">
-              <div class="col-md-9">
-                <img src="assets/img/joseluis200x200.png" alt="wrapkit" class="img-fluid rounded-circle" />
-              </div>
-              <div class="col-md-9 text-center">
-                <div class="pt-2">
-                  <h5 class="mt-4 font-weight-medium mb-0">Jose Luis Redondo-García</h5>
-                  <h6 class="subtitle mb-3">Multimedia Annotation</h6>
-                  <p>Understanding of spoken content using LLMs and foundational models.</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a href="https://scholar.google.es/citations?user=YY37C-4AAAAJ&hl=en" class="text-decoration-none d-block px-1"><i class="bx bxl-google"></i></a></li>
-                    <li class="list-inline-item"><a href="https://twitter.com/peputo" class="text-decoration-none d-block px-1"><i class="bx bxl-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/jluisred" class="text-decoration-none d-block px-1"><i class="bx bxl-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Row -->
-          </div>
-          <!-- column  -->
-          <!-- column  -->
-          <div class="col-lg-4 mb-4">
-            <!-- Row -->
-            <div class="row">
-              <div class="col-md-9">
-                <img src="assets/img/OscarCorcho200x200.jpeg" alt="wrapkit" class="img-fluid rounded-circle" />
-              </div>
-              <div class="col-md-9 text-center">
-                <div class="pt-2">
-                  <h5 class="mt-4 font-weight-medium mb-0">Oscar Corcho</h5>
-                  <h6 class="subtitle mb-3">Knowledge Representation</h6>
-                  <p>Ontology-based data integration and semantic technologies in Open Science.</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a href="https://scholar.google.es/citations?hl=en&user=TzubuoF0OCwC" class="text-decoration-none d-block px-1"><i class="bx bxl-google"></i></a></li>
-                    <li class="list-inline-item"><a href="https://twitter.com/ocorcho" class="text-decoration-none d-block px-1"><i class="bx bxl-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/ocorcho" class="text-decoration-none d-block px-1"><i class="bx bxl-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Row -->
-          </div>          
-        </div>
-      </div>
-        
-    </section>
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>          
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>Boadilla del Monte, 28660, Madrid (Spain)</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@librairy.eu</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bxl-twitter"></i>
-              <h3>Follow Us</h3>
-              <p>@librairy_eu</p>
-            </div>
-          </div>
-
-        </div>
-        <!--  
-        <div class="row">
-
-          <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.0678728953217!2d-3.89559458472323!3d40.40734716413426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41855888666321%3A0xd43b12a1fe4a7e72!2sC.%20Severo%20Ochoa%2C%2013%2C%20puerta%209%2C%2028660%20Boadilla%20del%20Monte%2C%20Madrid!5e0!3m2!1sen!2ses!4v1677869035483!5m2!1sen!2ses" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-      -->
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    
-    <div class="container">
-
-      
-
-      <div class="copyright-wrap d-md-flex py-4">
-        <div class="me-md-auto text-center text-md-start">
-          <div title="Sello PYME INNOVADORA 18/10/2026" style="text-align:center;"><a style="text-decoration:none;" target="_blank"  href="https://aplicaciones.ciencia.gob.es/pyiINFO/buscarPyi.mec?&nif=B06832091"  title="Ir a 'Sello Pyme Innovadora con validez 18/10/2026 ' en ventana nueva" >
-            <div><img alt="Sello PYME INNOVADORA 18/10/2026" src="https://aplicaciones.ciencia.gob.es/pyiINFO/imagenes/sello.jpg" /></div>
-            <div class="credits">PYME INNOVADORA</div>
-            <!--<div class="credits">Válido hasta el 18 de octubre de 2026 </div>-->            
-          </a>
-        </div>          
-        </div>
-        <div class="me-md-auto text-center text-md-start">
-          <div><img alt="escudo de MEIC 18/10/2026" src="https://aplicaciones.ciencia.gob.es/pyiINFO/imagenes/escudo.jpg"/></div>          
-        </div>
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>librAIry</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade. </a>
-            <a href="https://www.freepik.com/free-vector/search-engine-marketing-business-copywriting-service-content-management_12085329.htm#&position=16&from_view=author">Image by vectorjuice</a> on Freepik
-          </div>          
-        </div>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="legal.html" class="twitter"><i class="bx bx-cctv"></i></a>
-          <a href="jobs.html" class="twitter"><i class="bx bx-child"></i></a>
-          <a href="http://twitter.com/librairy_eu" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="http://www.linkedin.com/company/79706449/admin/" class="linkedin"><i class="bx bxl-linkedin"></i></a>          
-        </div>
-      </div>
-
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <div id="preloader"></div>
-
-   <!-- Custom JS Files -->
-   <script src="assets/js/script.js"></script>
-
-  <!-- Vendor JS Files -->
-  <!--<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>-->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
